@@ -16,6 +16,11 @@ body {
     min-height: 100vh;
 }
 
+img {
+    width: 1000px;
+    height: 1000px;
+}
+
 h2 {
     font-style: normal;
     font-weight: 400;
@@ -42,7 +47,8 @@ input {
 }
 
 .input-min {
-    margin-right: 62px;
+    margin-right: 60px;
+    margin-left: 55px;
     text-align: center;
     padding: 20px 0;
     font-size: 35px;
