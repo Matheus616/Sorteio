@@ -105,7 +105,7 @@ h3 {
     line-height: 28px;
     color: #ffffff;
     margin-bottom: 20px;
-}   
+}
 
 #historico {
     margin-top: 40px;
@@ -127,4 +127,56 @@ h3 {
     color: #ffffff;
     font-size: 400px;
     text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    input {
+        width: 90%;
+        margin: 10px auto;
+        font-size: 1.5em;
+        height: 60px;
+        padding: 10px;
+        margin: 10px auto;
+    } 
+
+    .input-min {
+        margin-left: 20px;
+    }
+
+    .input-max {
+        margin-left: 20px;
+    }
+    button {
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 1.5em;
+        height: 60px;
+        margin: 10px 0;
+    }
+
+    h2,
+    h3 {
+        font-size: 24px;
+    }
+
+    #resultado {
+        width: 90%;
+        font-size: 1.5em;
+    }
+
+    #historico {
+        width: 90%;
+    }
+
+    #historico-lista {
+        font-size: 25px;
+    }
+
 }
