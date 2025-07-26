@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Número Sorteado</title>
+  <style>
+    #resultado {
+      font-size: 2em;
+      padding: 20px;
+      border: 2px solid #333;
+      width: 200px;
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="resultado">Clique para sortear</div>
+  <button onclick="sortearNumero()">Sortear Número</button>
+
+  <script>
+    function sortearNumero() {
+      const numero = Math.floor(Math.random() * 100) + 1; // número entre 1 e 100
+      document.getElementById('resultado').innerText = numero;
+    }
+  </script>
+
+</body>
+</html>
