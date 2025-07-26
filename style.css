@@ -17,8 +17,8 @@ body {
 }
 
 img {
-    width: 1000px;
-    height: 1000px;
+    width: 1200px;
+    height: 1200px;
 }
 
 h2 {
@@ -28,8 +28,7 @@ h2 {
     line-height: 38px;
     color: #ffffff;
     text-align: center;
-    margin-top: 126px;
-    margin-bottom: 26px;
+    margin-bottom: 35px;
 }
 
 input {
@@ -102,7 +101,7 @@ button:active {
 
 h3 {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 40px;
     line-height: 28px;
     color: #ffffff;
     margin-bottom: 20px;
@@ -122,4 +121,10 @@ h3 {
     overflow-y: auto;
     margin-top: 10px;
     font-size: 24px;
+}
+
+#lista-vazia {
+    color: #ffffff;
+    font-size: 400px;
+    text-align: center;
 }
